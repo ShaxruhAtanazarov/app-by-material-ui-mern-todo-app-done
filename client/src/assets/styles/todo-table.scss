@@ -1,0 +1,16 @@
+.todo {
+  &__del-btn {
+    background-color: #d20909de !important;
+    min-width: 40px !important;
+    padding: 6px 5px !important;
+  }
+
+  &__text {
+    color: #000;
+
+    &.complated {
+      color: green;
+      text-decoration: line-through;
+    }
+  }
+}

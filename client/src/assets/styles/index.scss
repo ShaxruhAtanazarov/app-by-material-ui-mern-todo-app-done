@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif !important;
+}
+
+body::webkit-scrollbar {
+  display: none !important;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.error {
+  color: red;
+  text-align: right;
+  text-transform: capitalize;
+  margin: 4px 0;
+}
